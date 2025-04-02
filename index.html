@@ -1,12 +1,35 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>CRUDS</title>
-    <link rel="stylesheet" href="sheet.css">
-</head>
-<body>
+    <link rel="stylesheet" href="sheet.css" />
+  </head>
+
+  <body>
+    <div class="cruds">
+      <div class="head">
+        <h2>cruds</h2>
+        <p>products management system</p>
+      </div>
+      <div class="inputs">
+        <div class="title"><input type="text" placeholder="Title" /></div>
+
+        <div class="money">
+          <input type="number" placeholder="Price" />
+          <input type="number" placeholder="Taxes" />
+          <input type="number" placeholder="Ads" />
+          <input type="number" placeholder="Discount" />
+          <input type="button" value="Total" id="total" />
+        </div>
+        <div class="amount"><input type="number" placeholder="Amount" /></div>
+        <div class="category"><input type="text" placeholder="Category" /></div>
+        <input type="submit" value="Create">
+
+      </div>
+      <div class="outputs"></div>
+    </div>
     <script src="script.js"></script>
-</body>
+  </body>
 </html>
