@@ -46,7 +46,7 @@ submit.onclick = function () {
   };
   dataPro.push(newPro);
   localStorage.setItem("products", JSON.stringify(dataPro));
-  console.log(dataPro);
+  clearData();
 };
 //save local storage
 //clear inputs
@@ -59,7 +59,7 @@ function clearData() {
   total.innerHTML = "";
   count.value = "";
   category.value = "";
-}
+}58;50
 
 //read
 //count
