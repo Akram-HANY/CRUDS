@@ -19,15 +19,15 @@
     <div class="inputs">
       <input type="text" placeholder="Title" id="title">
       <div class="price">
-        <input type="number" placeholder="Price" id="price">
-        <input type="number" placeholder="Taxes" id="taxes">
-        <input type="number" placeholder="Ads" id="ads">
-        <input type="number" placeholder="Discount" id="discount">
+        <input onkeyup="getTotal()" type="number" placeholder="Price" id="price">
+        <input onkeyup="getTotal()" type="number" placeholder="Taxes" id="taxes">
+        <input onkeyup="getTotal()" type="number" placeholder="Ads" id="ads">
+        <input onkeyup="getTotal()" type="number" placeholder="Discount" id="discount">
         <small id="total">565 </small>
       </div>
 <input type="number" placeholder="Count" id="count">
 <input type="text" placeholder="Category" id="category">
-<button id="submit">Create</button>
+<button  id="submit">Create</button>
 
 
     </div>
